@@ -17,6 +17,82 @@
     @apply max-w-none;
   }
   
+  /* Enhanced lesson content styling */
+  .lesson-content {
+    @apply text-gray-900 leading-relaxed;
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+  
+  .lesson-content h1 {
+    @apply text-3xl font-bold text-gray-900 mt-12 mb-6 leading-tight;
+  }
+  
+  .lesson-content h2 {
+    @apply text-2xl font-semibold text-gray-900 mt-10 mb-4 leading-tight;
+  }
+  
+  .lesson-content h3 {
+    @apply text-xl font-semibold text-gray-900 mt-8 mb-3 leading-tight;
+  }
+  
+  .lesson-content h4 {
+    @apply text-lg font-semibold text-gray-900 mt-6 mb-2;
+  }
+  
+  .lesson-content p {
+    @apply mb-6 leading-relaxed;
+  }
+  
+  .lesson-content ul, .lesson-content ol {
+    @apply mb-6 pl-6 space-y-2;
+  }
+  
+  .lesson-content li {
+    @apply leading-relaxed;
+  }
+  
+  .lesson-content ul li {
+    @apply list-disc;
+  }
+  
+  .lesson-content ol li {
+    @apply list-decimal;
+  }
+  
+  .lesson-content blockquote {
+    @apply border-l-4 border-blue-200 pl-6 italic text-gray-700 mb-6 bg-blue-50 py-4 rounded-r-lg;
+  }
+  
+  .lesson-content strong, .lesson-content b {
+    @apply font-semibold text-gray-900;
+  }
+  
+  .lesson-content em, .lesson-content i {
+    @apply italic;
+  }
+  
+  .lesson-content a {
+    @apply text-blue-600 hover:text-blue-800 underline transition-colors duration-200;
+  }
+  
+  .lesson-content code {
+    @apply bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono;
+  }
+  
+  .lesson-content pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto mb-6;
+  }
+  
+  .lesson-content pre code {
+    @apply bg-transparent text-gray-100 p-0;
+  }
+  
+  /* Special styling for lesson sections */
+  .lesson-content hr {
+    @apply border-gray-300 my-12;
+  }
+  
   /* Focus styles for accessibility */
   *:focus-visible {
     @apply outline-2 outline-offset-2 outline-blue-600;
