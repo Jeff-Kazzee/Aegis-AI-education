@@ -1,0 +1,3 @@
+# Starter Template or Existing Project
+
+Based on the PRD, this is a greenfield project. The technical assumptions clearly state the use of Next.js deployed on Vercel. This combination serves as our "starter template." Vercel's platform provides an out-of-the-box, production-grade foundation for Next.js applications, which includes the CI/CD pipeline, serverless function environment, and global CDN. This choice perfectly aligns with the non-functional requirement for a low-cost, easily maintainable system for a single developer (NFR2).

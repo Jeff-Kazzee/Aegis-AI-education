@@ -1,0 +1,3 @@
+# Introduction
+
+This document outlines the complete full-stack architecture for Project 'Aegis', including the backend systems (or lack thereof), frontend implementation, and their integration. It serves as the single source of truth for AI-driven development, ensuring consistency across the entire technology stack. This unified approach is ideal for a Next.js project where frontend and backend concerns are tightly integrated within the same framework.
