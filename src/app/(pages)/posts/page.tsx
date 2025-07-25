@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import type { Metadata } from 'next'
 import { SubstackPost, formatPostDate } from '@/lib/substack'
 
 // Note: Metadata export needs to be in a separate server component for client components

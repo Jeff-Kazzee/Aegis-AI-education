@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -27,12 +29,12 @@ export default function Footer() {
             <nav aria-label="Footer navigation">
               <ul className="space-y-2">
                 <li>
-                  <a 
+                  <Link 
                     href="/course"
                     className="text-gray-600 hover:text-blue-600 text-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                   >
                     Educational Modules
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a 
