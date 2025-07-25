@@ -98,7 +98,7 @@ export function formatPostDate(dateString: string): string {
       month: 'long',
       day: 'numeric'
     })
-  } catch (error) {
+  } catch {
     return 'Date unavailable'
   }
 }

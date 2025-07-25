@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="container mx-auto px-4 py-8">
@@ -16,12 +18,12 @@ export default function Home() {
             with agency and power.
           </p>
           <div className="mt-8 space-x-4">
-            <a href="/course" className="btn-primary">
+            <Link href="/course" className="btn-primary">
               Start Learning
-            </a>
-            <a href="/posts" className="btn-secondary">
+            </Link>
+            <Link href="/posts" className="btn-secondary">
               Read Posts
-            </a>
+            </Link>
           </div>
         </div>
       </div>

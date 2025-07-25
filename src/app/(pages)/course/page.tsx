@@ -21,15 +21,15 @@ export default async function CoursePage() {
           <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
               Cut through the AI hype and understand how artificial intelligence really affects 
-              your work and life. This course provides critical AI literacy from a worker's perspective—
+              your work and life. This course provides critical AI literacy from a worker&apos;s perspective—
               no corporate marketing, just facts you can use.
             </p>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <h2 className="text-lg font-semibold text-blue-900 mb-2">What You'll Learn</h2>
+              <h2 className="text-lg font-semibold text-blue-900 mb-2">What You&apos;ll Learn</h2>
               <ul className="text-blue-800 text-left space-y-2">
                 <li>• How to separate AI marketing hype from reality</li>
-                <li>• What AI actually is (and isn't) in plain language</li>
-                <li>• Evidence-based analysis of AI's impact on jobs</li>
+                <li>• What AI actually is (and isn&apos;t) in plain language</li>
+                <li>• Evidence-based analysis of AI&apos;s impact on jobs</li>
                 <li>• How to protect your privacy from AI surveillance</li>
                 <li>• Which AI tools actually help workers vs. waste time</li>
                 <li>• How to organize collectively around workplace AI issues</li>
@@ -69,7 +69,7 @@ export default async function CoursePage() {
             </div>
           ) : (
             <div className="divide-y divide-gray-200">
-              {lessons.map((lesson, index) => (
+              {lessons.map((lesson) => (
                 <article key={lesson.slug} className="px-8 py-6 hover:bg-gray-50 transition-colors duration-200">
                   <Link 
                     href={`/course/${lesson.slug}`}
@@ -124,7 +124,7 @@ export default async function CoursePage() {
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Pro-Labor</h3>
-              <p>Our perspective centers working people's interests, not corporate profits or Silicon Valley narratives.</p>
+              <p>Our perspective centers working people&apos;s interests, not corporate profits or Silicon Valley narratives.</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Evidence-Based</h3>
