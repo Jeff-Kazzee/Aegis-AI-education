@@ -8,11 +8,21 @@ node_modules/
 /out/
 /build
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# BMad Framework - DO NOT COMMIT TO PROJECT REPO
+.bmad-core/
+.claude/
+.clinerules/
+.gemini/
+.roomodes
+agents/
+expansion-packs/
+teams/
+team-fullstack.txt
+*.txt
+
+# Project documentation (keep only project-specific docs)
+docs/PRD*.md
+docs/Project*.md
 
 # Environment variables
 .env*
@@ -46,48 +56,17 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
-# Output of 'npm pack'
-*.tgz
-
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
 # next.js build output
 .next
-
-# nuxt.js build output
-.nuxt
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
 
 # Vercel
 .vercel
