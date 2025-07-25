@@ -1,176 +1,206 @@
 ---
 title: "What AI Actually Is (And Isn't)"
 order: 2
-excerpt: "Build accurate technical understanding of AI without jargon, and learn the limitations that companies don't advertise."
+excerpt: "Build accurate technical understanding of current AI models without jargon, and learn the limitations that companies don't advertise."
 ---
 
 # What AI Actually Is (And Isn't)
 
-Now that you can spot AI hype, let's build a solid understanding of what AI systems actually do. This isn't about becoming a programmer—it's about having enough technical knowledge to evaluate AI claims critically and understand what's realistic to expect.
+Now that you can spot AI hype, let's build a solid understanding of what AI systems actually do. This isn't about becoming a programmer—it's about having enough technical knowledge to evaluate AI claims critically and understand what's realistic to expect from the models available in July 2025.
 
-## AI in Plain Language: Pattern Recognition at Scale
+## The Current AI Landscape: What's Actually Available
 
-Here's what AI actually is: **a computer system that finds patterns in large amounts of data and uses those patterns to make predictions or decisions**.
+As of July 2025, the AI you hear about most consists of **Large Language Models (LLMs)**—sophisticated pattern-matching systems trained on massive amounts of text and images.
 
-That's it. Despite all the marketing about "artificial intelligence" and "machine learning," current AI systems are essentially very sophisticated pattern-matching tools.
+### The Big Players (July 2025)
 
-### A Simple Example
-Think about spam email filters—one of the most successful AI applications:
+**Claude 4 Family (Anthropic)**
+- **What it is**: Text processing with 200,000 token context (about 150,000 words)
+- **What it's good at**: Long document analysis, coding, structured data work
+- **Cost reality**: Claude 4 Sonnet costs 20x more than Gemini 2.5 Flash
+- **Limitation**: Still makes up information when uncertain
 
-1. **Training**: The system analyzes millions of emails already labeled as "spam" or "not spam"
-2. **Pattern Finding**: It identifies patterns (certain words, sender patterns, link structures) that correlate with spam
-3. **Prediction**: When new email arrives, it checks for those patterns and predicts "spam" or "not spam"
+**GPT-4o and Reasoning Models (OpenAI)**
+- **GPT-4o**: Available on free tier, decent all-around performance
+- **o3/o4-mini**: "Reasoning" models that take longer to think through problems
+- **What changed**: Better at math and coding, still can't browse the internet reliably
+- **Cost**: $3 per million input tokens, $10 per million output tokens
 
-This same basic process underlies everything from recommendation algorithms to chatbots to hiring software.
+**Gemini 2.5 (Google)**
+- **Gemini 2.5 Pro**: Multimodal (text, images, video)
+- **Gemini 2.5 Flash**: Optimized for speed, sub-second responses
+- **Advantage**: Tight Google ecosystem integration
+- **Reality**: Most cost-effective for high-volume basic tasks
 
-## The Three Types of AI You'll Encounter
+**DeepSeek-R1 (The Disruptor)**
+- **What it is**: Open-weight model achieving GPT-4 level performance
+- **Cost advantage**: 1/10th the price of comparable models
+- **Significance**: Proves expensive doesn't mean better
 
-### 1. Narrow AI (What Actually Exists)
-- **What it is**: Systems designed for specific tasks like image recognition, language translation, or playing chess
-- **Examples**: Spam filters, voice assistants, GPS navigation, recommendation systems
-- **Key limitation**: Only works for the specific task it was trained on
+## How These Systems Actually Work
 
-### 2. General AI (Science Fiction)
-- **What it would be**: AI that can think, learn, and adapt like humans across different domains
-- **Current status**: Doesn't exist and may never exist
-- **Why companies mention it**: Makes their narrow AI products sound more impressive
+### Pattern Matching, Not Thinking
 
-### 3. Super AI (Pure Marketing)
-- **What it claims**: AI that exceeds human intelligence across all domains
-- **Reality**: Not even close to existing
-- **Red flag**: If someone talks about "super AI" in relation to a current product, they're selling hype
+Current AI models are extremely sophisticated **autocomplete systems**. They predict what word comes next based on patterns they learned from training data.
 
-## How AI Systems Actually Learn (Spoiler: They Don't)
+**Simple Example**: 
+- You type: "The capital of France is..."
+- AI predicts: "Paris" (because that pattern appeared millions of times in training)
 
-When companies say AI "learns," they're using the word differently than humans do. Here's what actually happens:
+**Complex Example**:
+- You ask: "Write a performance review for an employee"
+- AI combines patterns from thousands of performance reviews to generate something that sounds right
 
-### Human Learning
-- You understand concepts and can apply them in new situations
-- You learn from just a few examples
-- You can explain your reasoning
-- You adapt your understanding based on new information
+### What This Means for You
 
-### AI "Learning"
-- Systems find statistical correlations in massive datasets
-- They need thousands or millions of examples
-- They can't explain their reasoning in human terms
-- They can't adapt without complete retraining
+**AI is good at**:
+- Tasks that follow predictable patterns
+- Combining existing information in new ways
+- Generating first drafts that humans then edit
+- Processing large amounts of text quickly
+
+**AI struggles with**:
+- Completely novel situations not in training data
+- Tasks requiring real-world verification
+- Understanding context beyond what's explicitly stated
+- Distinguishing between plausible-sounding and accurate information
+
+## Current Capabilities vs. Marketing Claims
+
+### What AI Can Actually Do (July 2025)
+
+**Document Processing**: Summarize reports, extract key information, format data
+- **Example**: Turn a 50-page manual into a 2-page summary
+- **Limitation**: May miss nuanced context or critical details
+
+**Code Assistance**: Generate boilerplate code, explain existing code, suggest improvements
+- **Example**: Write basic functions for common programming tasks
+- **Limitation**: Experienced developers report 19% slower performance due to debugging AI errors
+
+**Customer Service**: Handle routine inquiries, escalate complex issues
+- **Example**: Answer FAQ questions, process standard requests
+- **Limitation**: Customer satisfaction drops when AI handles complex problems
+
+**Content Creation**: Generate first drafts, brainstorm ideas, create variations
+- **Example**: Write email templates, social media posts, basic articles
+- **Limitation**: Output sounds generic without significant human editing
+
+### What AI Cannot Do (Despite Claims)
+
+**Replace Human Judgment**: AI cannot make ethical decisions, understand stakeholder impact, or navigate complex interpersonal situations.
+
+**Eliminate Bias**: AI amplifies biases in training data and creates new forms of discrimination.
+
+**Understand Context**: AI doesn't truly understand what it's processing—it matches patterns without comprehension.
+
+**Verify Information**: AI cannot fact-check itself or distinguish between accurate and plausible-sounding but false information.
+
+## The "Reasoning" Models Explained
+
+In 2025, companies introduced "reasoning" models (OpenAI's o3, Claude's Extended Thinking) that supposedly "think" through problems.
+
+### What's Actually Happening
+
+These models don't reason like humans. They:
+1. Generate multiple approaches to a problem
+2. Check their work against patterns in training data
+3. Refine their answers through iteration
+4. Present the final result
 
 ### Why This Matters
-AI systems don't understand what they're doing—they're following statistical patterns. This means:
-- They fail in ways humans wouldn't
-- They can't handle situations significantly different from their training data
-- They perpetuate biases present in their training data
-- They need constant human oversight
 
-## The Training Data Problem
+**Useful for**: Math problems, coding challenges, structured analysis
+**Still limited by**: Training data patterns, inability to verify real-world information
+**Cost reality**: Takes 3-10x longer and costs much more than regular AI
 
-Every AI system is limited by its training data. This creates several problems companies rarely mention:
+## Multimodal AI: Images, Video, Audio
 
-### Bias Amplification
-**Example**: Amazon's AI hiring tool (discontinued in 2018) was trained on resumes from the previous 10 years. Since most hired engineers were men, the AI learned to downgrade resumes that included words like "women's" (as in "women's chess club captain").
+Current AI can process more than just text, but with significant limitations.
 
-### Outdated Information
-**Example**: Large language models are trained on data up to a certain date. They don't know about events after their training cutoff and can't learn new information without complete retraining.
+### Image Processing (July 2025)
 
-### Missing Context
-**Example**: AI systems trained on internet text might "learn" that correlation equals causation, since that's a common pattern in online content, even though it's factually wrong.
+**What it can do**:
+- Describe images accurately
+- Extract text from photos
+- Generate images from descriptions
+- Identify objects and scenes
 
-## Real Resource Costs Nobody Talks About
+**What it cannot do**:
+- Understand complex visual context
+- Reliably identify specific individuals
+- Process images requiring specialized expertise (medical scans, technical diagrams)
 
-AI systems require massive resources that make them impractical for many applications:
+### Video and Audio
 
-### Energy Consumption
-- **Single ChatGPT conversation**: Uses about 10 times more electricity than a Google search
-- **Training large AI models**: Can use as much electricity as 100 American homes use in a year
-- **Environmental cost**: AI data centers significantly increase carbon emissions
+**Video**: Basic scene description, simple editing tasks
+**Audio**: Speech-to-text, music generation, voice cloning
+**Limitations**: High computational costs, inconsistent quality, ethical concerns with deepfakes
 
-### Human Labor
-- **Content moderation**: Thousands of workers in developing countries review and filter AI outputs
-- **Data labeling**: Humans must manually label millions of training examples
-- **System monitoring**: Constant human oversight required to catch AI failures
+## The Technical Reality Behind AI "Intelligence"
 
-### Financial Cost
-- **Development**: Building sophisticated AI systems costs millions of dollars
-- **Operation**: Running AI systems requires expensive specialized hardware
-- **Maintenance**: Constant updates and monitoring by skilled technicians
+### No Understanding, Just Prediction
 
-## Common AI Limitations Companies Hide
+AI systems don't understand language the way humans do. They:
+- Calculate probabilities for word sequences
+- Match input patterns to training examples
+- Generate statistically likely responses
+- Cannot truly comprehend meaning or context
 
-### 1. Brittleness
-AI systems often fail catastrophically when encountering situations slightly different from their training data.
+### Training Data Determines Everything
 
-**Example**: Self-driving car systems that work perfectly on sunny days but fail in light rain because they weren't trained on enough rainy weather data.
+An AI model is only as good as its training data:
+- **Garbage in, garbage out**: Biased data creates biased outputs
+- **Training cutoffs**: Models don't know about events after training
+- **Pattern limitations**: Cannot handle situations not represented in training
 
-### 2. Black Box Problem
-Most AI systems can't explain their reasoning in ways humans can understand.
+### Hallucination: A Feature, Not a Bug
 
-**Real Impact**: AI hiring systems may reject qualified candidates for reasons no human can identify or challenge.
+AI models "hallucinate"—generate confident-sounding but false information—because they're designed to always produce output, even when they don't have accurate information.
 
-### 3. Adversarial Vulnerabilities
-Small, intentional changes to inputs can fool AI systems completely.
+**Example**: Ask AI about a person who doesn't exist, and it will confidently describe their career, achievements, and personal life.
 
-**Example**: Adding specific stickers to stop signs can make AI vision systems misidentify them as speed limit signs.
+## What This Means for Workers
 
-### 4. Statistical Bias
-AI systems reflect and amplify biases present in their training data.
+### Realistic Expectations
 
-**Research Finding**: University of Washington study (2024) found that AI resume screening favored white-associated names 85% of the time and never favored Black male names over white male names.
+**AI is a tool**, like a calculator or word processor, that can assist with specific tasks but requires human oversight and judgment.
 
-## What AI Can Actually Do Well
+**Good uses**:
+- First drafts that you heavily edit
+- Processing routine information
+- Organizing large amounts of data
+- Generating ideas for human evaluation
 
-To be fair, AI systems excel at certain tasks:
+**Poor uses**:
+- Making important decisions without human review
+- Tasks requiring accuracy you cannot verify
+- Situations involving complex human factors
+- Anything with legal, ethical, or safety implications
 
-### Pattern Recognition in Large Datasets
-- Identifying fraud in credit card transactions
-- Spotting tumors in medical scans (with human verification)
-- Detecting network security intrusions
+### Cost-Benefit Reality
 
-### Routine Language Tasks
-- Basic translation between languages
-- Grammar checking and editing suggestions
-- Generating first drafts of routine communications
+Most AI implementations cost 5-10 times more than initially projected when you factor in:
+- Software licensing and usage fees
+- Training time for workers
+- Quality control and error correction
+- Integration with existing systems
+- Ongoing maintenance and updates
 
-### Optimization Problems
-- Route planning for delivery services
-- Scheduling optimization
-- Resource allocation in manufacturing
+## Red Flags: When Companies Misrepresent AI
 
-## Red Flags: When AI Claims Are Probably False
+Watch for these warning signs:
+- Claims that AI "understands" or "thinks"
+- Promises of human-level performance without human oversight
+- Vague productivity improvements without specific metrics
+- Suggestions that AI can replace complex human judgment
+- Marketing that ignores error rates or implementation costs
 
-Watch out for these warning signs in AI marketing:
+## The Bottom Line
 
-1. **Claims about "understanding" or "thinking"**: AI systems process information but don't understand meaning
-2. **Promises to "replace human judgment"**: Human context and wisdom remain essential
-3. **"90% accuracy" without context**: Accuracy on what? Under what conditions?
-4. **"Revolutionary breakthrough"**: Most AI progress is incremental improvement
-5. **Vague benefits**: "Transform your business" without specific, measurable improvements
+Current AI models are impressive pattern-matching tools that can assist with many tasks, but they're not the revolutionary intelligence that marketing claims suggest. Understanding their actual capabilities—and limitations—helps you make informed decisions about when and how to use them.
 
-## Key Takeaways
-
-- **AI is pattern recognition**, not intelligence or understanding
-- **Current AI is narrow**, designed for specific tasks only
-- **Training data determines capabilities and limitations**
-- **Resource costs are high** and often hidden from marketing
-- **Human oversight remains essential** for all AI applications
-- **Many AI limitations are fundamental**, not just version 1.0 problems
-
-## Practical Application
-
-Next time you encounter AI marketing:
-
-1. **Ask**: What specific patterns is this AI trained to recognize?
-2. **Ask**: What happens when it encounters situations outside its training data?
-3. **Ask**: What are the error rates and failure modes?
-4. **Ask**: How much human oversight is required?
-5. **Ask**: What are the real costs of implementation and operation?
-
-## What's Next
-
-In our next lesson, we'll apply this technical understanding to the question that matters most to working people: "How will AI actually affect my job?" We'll look at evidence-based analysis of AI's real impact on different types of work, separate from the fear-mongering and unrealistic promises.
-
-Understanding what AI actually is gives you the foundation to evaluate these claims critically and make informed decisions about your career and workplace.
+In the next lesson, we'll examine how these technical realities translate to real workplace impacts, using data from actual AI implementations in 2025.
 
 ---
 
-*Next lesson: [AI and Your Job: Separating Fear from Facts](/course/03-ai-and-your-job)*
+*Next: Learn how AI's technical limitations affect real jobs and workplaces, with evidence from companies that tried to implement AI systems in 2025.*

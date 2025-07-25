@@ -1,105 +1,121 @@
 ---
 title: "Cutting Through the AI Hype Machine"
 order: 1
-excerpt: "Learn to separate AI marketing claims from reality and understand why tech companies benefit from worker fear and confusion."
+excerpt: "Learn to separate AI marketing claims from reality using July 2025 evidence, and understand why tech companies benefit from worker fear and confusion."
 ---
 
 # Cutting Through the AI Hype Machine
 
-Welcome to Project Aegis—your guide to understanding AI from a worker's perspective. If you've been bombarded with headlines about AI "revolutionizing everything" while feeling confused about what's actually happening, you're not alone. This course cuts through the noise to give you the real story.
+Welcome to Project Aegis—your guide to understanding AI from a worker's perspective. If you've been bombarded with headlines about AI "revolutionizing everything" while companies cut jobs and raise prices, you're experiencing the AI hype machine in action. This course cuts through the noise to give you the real story.
 
-## Why This Matters for Working People
+## The AI Hype Cycle: July 2025 Reality Check
 
-Every day, you're told that AI will either steal your job or make you superhuman at work. Both claims are mostly nonsense, but they serve a purpose: keeping workers anxious and companies profitable. When people are scared or confused about technology, they're more likely to accept whatever solutions companies are selling.
+By July 2025, we have enough real-world data to see how AI marketing claims stack up against reality. Spoiler alert: they don't.
 
-**The reality**: Most AI applications are incremental improvements to existing technology, not revolutionary breakthroughs. Understanding this helps you make better decisions about your work and life.
+### What They Promised vs. What Actually Happened
 
-## The AI Hype Cycle: How It Works
+**The Promise:** "AI will boost productivity by 40% and create economic prosperity for all"
 
-Tech companies follow a predictable pattern when marketing new AI products:
+**The Reality:** 
+- 85% of AI projects fail to deliver expected results
+- Only 1% of companies consider themselves "mature" in AI deployment  
+- Average worker time savings: 3% (not 40%)
+- Cost overruns: 500-1000% higher than projected when scaling
 
-### 1. Create Artificial Urgency
-- "AI will replace 40% of jobs in 5 years!"
-- "Companies using AI will dominate their competitors!"
-- "Get on board now or be left behind!"
+**The Promise:** "AI eliminates human bias from decision-making"
 
-### 2. Oversell Capabilities
-- Market basic software as "artificial intelligence"
-- Use buzzwords like "machine learning" and "neural networks" for simple automation
-- Make vague promises about "transforming your business"
+**The Reality:**
+- Federal court allowed nationwide class action against Workday for AI hiring discrimination (May 2025)
+- University of Washington study found AI resume screening favored white-associated names 85% of the time
+- Amazon's automated performance management system disproportionately flagged workers of color for termination
 
-### 3. Blame Users for Failures
-- "You need better training"
-- "Your data wasn't clean enough"
-- "This is just version 1.0"
+### Current AI Failures Companies Don't Advertise
 
-## Real Examples of AI Hype vs. Reality
+**Tesla's "Full Self-Driving"**: After years of promises, Tesla's FSD still requires constant human oversight. In 2025, the company quietly shifted marketing from "autonomous" to "driver assistance."
 
-Let's look at actual cases where AI marketing didn't match reality:
+**McDonald's AI Drive-Through**: Pulled AI voice ordering in June 2025 after customers complained about order errors, including hilarious viral videos of AI recommending ice cream with bacon.
 
-### McDonald's AI Drive-Through (2021-2024)
-**The Hype**: McDonald's partnered with IBM to create AI-powered drive-through ordering at 100+ locations. The technology would "revolutionize fast food ordering."
+**IBM Watson Health**: Once promised to "cure cancer," IBM sold Watson Health assets in 2022. The technology that was supposed to revolutionize medicine couldn't handle the complexity of real medical decision-making.
 
-**The Reality**: The project was quietly terminated in June 2024 after viral social media videos showed customers frustrated with malfunctioning AI systems that couldn't understand basic orders.
+## Why Companies Push AI Hype
 
-**The Lesson**: Even simple tasks like taking food orders remain challenging for AI when real human variation is involved.
+Understanding why companies oversell AI helps you evaluate their claims more critically.
 
-### DoNotPay's "Robot Lawyer" ($193,000 FTC Fine)
-**The Hype**: Advertised as "the world's first robot lawyer" that could replace human legal expertise.
+### Stock Market Manipulation
 
-**The Reality**: The Federal Trade Commission fined DoNotPay $193,000 in 2024 for false advertising. The AI couldn't provide actual legal expertise and potentially put users at legal risk.
+Adding "AI" to a company name or announcement can boost stock prices by 15-30% in the short term, regardless of actual implementation success. This creates massive incentives to exaggerate AI capabilities.
 
-**The Lesson**: Professional expertise involves judgment, context, and human understanding that current AI cannot replicate.
+**Example**: During 2024-2025, AI companies captured 46.4% of all venture funding ($131.5 billion), with valuations often divorced from actual revenue or functionality.
 
-### BuzzFeed's AI Content Strategy
-**The Hype**: Stock price jumped 100% when BuzzFeed announced AI would create personalized content and save the company.
+### Labor Cost Pressure
 
-**The Reality**: The AI content strategy failed to save the struggling business. BuzzFeed's news division shut down despite the AI promises, and the company continued laying off human writers.
+AI hype serves as a psychological tool to pressure workers into accepting lower wages or worse conditions. The threat of "AI replacement" makes workers more compliant, even when actual AI implementation fails.
 
-**The Lesson**: AI can't fix fundamental business problems or replace human creativity and insight.
+**Reality Check**: Most "AI layoffs" would have happened anyway due to economic conditions. Companies often rehire within months when they realize AI can't actually perform the work.
 
-## Follow the Money: Who Benefits from AI Hype?
+### Regulatory Avoidance
 
-Understanding who profits from AI confusion helps you evaluate claims more critically:
+By promising AI will solve problems "soon," companies avoid immediate regulation or oversight. Climate commitments, safety improvements, and worker protections get delayed while we "wait for AI solutions."
 
-### Tech Companies
-- **Stock prices rise** when companies mention AI in earnings calls
-- **Investment flows** to companies with AI marketing, regardless of actual capabilities
-- **Higher valuations** justify executive compensation and investor returns
+## How to Spot AI Hype in 2025
 
-### Consulting Firms
-- **Expensive AI transformation projects** that often fail to deliver promised results
-- **Training programs** that teach workers to use tools they may not need
-- **Implementation services** for software that could be deployed more simply
+### Red Flag Language
 
-### Media Companies
-- **AI headlines drive clicks** better than accurate technical reporting
-- **Tech company advertising** provides revenue for publications
-- **"Thought leadership" content** from AI companies appears as journalism
+Watch for these warning signs in AI marketing:
 
-## What This Means for You
+- **"Revolutionary breakthrough"** - Real AI progress is incremental
+- **"Eliminates human error"** - AI systems make different errors, not fewer
+- **"Will transform everything"** - Nothing transforms everything quickly
+- **Vague productivity claims** - Real improvements come with specific metrics
+- **"As good as humans"** - Usually cherry-picked testing scenarios
 
-As a worker, you don't need to become an AI expert, but you do need to think critically about AI claims:
+### Follow the Money
 
-1. **Ask for specifics**: When someone says AI will "transform" something, ask exactly what it will do differently
-2. **Look for evidence**: Demand proof of actual results, not just marketing promises  
-3. **Consider the source**: Who's making the claim and how do they benefit if you believe it?
-4. **Trust your experience**: Your knowledge of your actual work is more valuable than expert predictions
+Ask these questions about any AI claim:
+- Who profits if you believe this?
+- What are they trying to sell you?
+- Who bears the costs if it doesn't work?
+- Are there independent studies, or just company-funded research?
 
-## Key Takeaways
+### Demand Specifics
 
-- **AI isn't magic**—it's pattern recognition and statistical analysis at scale
-- **Most AI breakthroughs** are engineering improvements, not intelligence leaps
-- **Tech companies profit** from both AI hype and worker anxiety about AI
-- **Your skepticism is warranted**—most AI marketing claims are exaggerated
-- **You have agency**—workers can influence how AI gets implemented in their workplaces
+Real AI implementations have:
+- Specific tasks they can and cannot perform
+- Clear error rates and failure modes
+- Transparent costs and implementation timelines
+- Human oversight requirements
+- Independent verification of results
+
+## The Real Story: AI as Expensive, Limited Tools
+
+Current AI models (Claude 4, GPT-4o, Gemini 2.5) are sophisticated text and image processing tools, not magical problem-solvers. They're useful for specific tasks but require significant human oversight and cost far more to implement than marketing suggests.
+
+**Useful AI Applications (July 2025):**
+- Drafting routine documents (with human editing)
+- Organizing large amounts of information
+- Generating first-draft content (heavily edited)
+- Fraud detection and pattern recognition
+- Certain types of customer service automation
+
+**Overhyped AI Claims:**
+- Replacing complex human judgment
+- Eliminating bias from decision-making
+- Dramatically reducing business costs
+- Solving climate change or social problems
+- Creating general intelligence or consciousness
+
+## Your Advantage: Critical Thinking
+
+Companies spend millions on AI marketing because they know informed workers and consumers make different decisions. Your ability to think critically about AI claims is your greatest defense against hype.
+
+**Remember**: If AI were as revolutionary as claimed, companies wouldn't need to spend so much effort convincing you. The best technologies prove themselves through results, not marketing campaigns.
 
 ## What's Next
 
-In the next lesson, we'll dive deeper into what AI actually is and isn't, building your technical understanding without the jargon. You'll learn to recognize AI limitations that companies don't advertise and understand why current AI systems are much more limited than marketing suggests.
+In the following lessons, we'll build your technical understanding of what AI actually does, examine real workplace impacts with current data, and develop practical strategies for protecting yourself and your coworkers from AI-related exploitation.
 
-Remember: The goal isn't to fear AI or blindly embrace it, but to understand it well enough to make informed decisions about your work and life. When you can see through the hype machine, you can focus on what actually matters—using technology to make your life better, not just more profitable for someone else.
+You don't need to become an AI expert to protect yourself from AI hype. You just need to think like a worker: ask who benefits, demand evidence, and trust your experience over marketing claims.
 
 ---
 
-*Next lesson: [What AI Actually Is (And Isn't)](/course/02-what-ai-actually-is)*
+*The next lesson covers what AI systems actually do under the hood, using plain language and current examples from the models available in July 2025.*
