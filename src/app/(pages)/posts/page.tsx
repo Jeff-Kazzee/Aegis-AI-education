@@ -166,7 +166,7 @@ export default function PostsPage() {
           <p className="text-gray-600 text-sm">
             Want to stay updated? Subscribe to our{' '}
             <a
-              href="https://projectaegis.substack.com"
+              href="https://jeffkazzee.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700 font-medium"

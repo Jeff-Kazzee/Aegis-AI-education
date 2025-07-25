@@ -26,8 +26,8 @@ export async function fetchSubstackPosts(): Promise<SubstackPost[]> {
   }
 
   try {
-    // Replace with actual Substack RSS URL when available
-    const RSS_URL = 'https://projectaegis.substack.com/feed'
+    // Jeff Kazzee's Substack RSS feed
+    const RSS_URL = 'https://jeffkazzee.substack.com/feed'
     
     const feed = await parser.parseURL(RSS_URL)
     
