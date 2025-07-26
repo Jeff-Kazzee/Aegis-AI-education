@@ -97,7 +97,7 @@ export default function SupportPage() {
               Get in Touch
             </h3>
             <p className="text-gray-700 mb-4">
-              Have questions, suggestions, or want to collaborate? We'd love to hear from you.
+              Have questions, suggestions, or want to collaborate? We&apos;d love to hear from you.
             </p>
             <a
               href="mailto:jeffkazzee@gmail.com"
