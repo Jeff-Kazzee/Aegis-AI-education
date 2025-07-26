@@ -71,7 +71,7 @@ export default function SupportPage() {
                 Help keep Project Aegis independent and accessible to all workers
               </p>
               <a
-                href="https://buymeacoffee.com/projectaegis"
+                href="https://buymeacoffee.com/maydayjeffu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors duration-200 shadow-lg hover:shadow-xl"
@@ -91,8 +91,33 @@ export default function SupportPage() {
             </div>
           </div>
 
+          {/* Contact Section */}
+          <div className="mt-12 text-center border-t border-gray-200 pt-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              Get in Touch
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Have questions, suggestions, or want to collaborate? We'd love to hear from you.
+            </p>
+            <a
+              href="mailto:jeffkazzee@gmail.com"
+              className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+            >
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              jeffkazzee@gmail.com
+            </a>
+          </div>
+
           {/* Footer Message */}
-          <div className="mt-12 text-center">
+          <div className="mt-8 text-center">
             <p className="text-gray-600 text-sm">
               Thank you for supporting independent, worker-focused AI education.
             </p>

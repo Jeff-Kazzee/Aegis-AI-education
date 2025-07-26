@@ -52,6 +52,14 @@ export default function Footer() {
                     Support Our Mission
                   </a>
                 </li>
+                <li>
+                  <a 
+                    href="mailto:jeffkazzee@gmail.com"
+                    className="text-gray-600 hover:text-blue-600 text-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                  >
+                    Contact Us
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
